@@ -1,0 +1,2 @@
+﻿Simula una calculadora implementando el patron de diseño, donde las operaciones de la
+calculadora seran implementadas por el patron.

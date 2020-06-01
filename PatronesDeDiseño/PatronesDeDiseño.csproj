@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BEADEA1A-5894-4931-A822-5812C02DF6D5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PatronesDeDiseño</RootNamespace>
+    <AssemblyName>PatronesDeDiseño</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PatronBridge\Clases\CAbstraccion.cs" />
+    <Compile Include="PatronBridge\Clases\CImplementacion1.cs" />
+    <Compile Include="PatronBridge\Clases\CImplementacion2.cs" />
+    <Compile Include="PatronBridge\Clases\CImplementacion3.cs" />
+    <Compile Include="PatronBridge\Clases\CMainPatronBridge.cs" />
+    <Compile Include="PatronBridge\Interfaces\IBridge.cs" />
+    <Compile Include="PatronComposite\Clases\CCompuesto.cs" />
+    <Compile Include="PatronDecorador\Clases\CSuspension.cs" />
+    <Compile Include="PatronDecorador\Clases\CSistemaSonido.cs" />
+    <Compile Include="PatronDecorador\Clases\CNitrogeno.cs" />
+    <Compile Include="PatronDecorador\Clases\CAuto.cs" />
+    <Compile Include="PatronDecorador\Clases\CMainPatronDecorador.cs" />
+    <Compile Include="PatronDecorador\Interfaces\IComponente.cs" />
+    <Compile Include="PatronComposite\Clases\CMainPatronComposite.cs" />
+    <Compile Include="PatronComposite\Clases\CComponente.cs" />
+    <Compile Include="PatronComposite\Interfaces\IComponente.cs" />
+    <Compile Include="PatronEstrategia\Clases\CDiv.cs" />
+    <Compile Include="PatronEstrategia\Clases\CMainPatronEstrategia.cs" />
+    <Compile Include="PatronEstrategia\Clases\CMultiplicacion.cs" />
+    <Compile Include="PatronEstrategia\Clases\CResta.cs" />
+    <Compile Include="PatronEstrategia\Clases\CSuma.cs" />
+    <Compile Include="PatronEstrategia\Interfaces\IOperacion.cs" />
+    <Compile Include="PatronProxy\Clases\CMainPatronProxy.cs" />
+    <Compile Include="PatronProxy\Clases\CProxy.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PatronProxy\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PatronBridge\Conceptualidad\PatronBridgeConcepto.png" />
+    <Content Include="PatronBridge\Conceptualidad\PatronBridgePartesImportantes.png" />
+    <Content Include="PatronBridge\Conceptualidad\PatronBridgeUML.png" />
+    <Content Include="PatronBridge\Conceptualidad\PatronBridgeVentajas.png" />
+    <Content Include="PatronBridge\Programa.txt" />
+    <Content Include="PatronComposite\Conceptualidad\PatronCompositeConcepto.png" />
+    <Content Include="PatronComposite\Conceptualidad\PatronCompositeElementosPrincipales.png" />
+    <Content Include="PatronComposite\Conceptualidad\PatronCompositeEsquema.png" />
+    <Content Include="PatronComposite\Conceptualidad\PatronCompositeUML.png" />
+    <Content Include="PatronComposite\Conceptualidad\PatronCompositeUsos.png" />
+    <Content Include="PatronComposite\Conceptualidad\PatronCompositeUtilidad.png" />
+    <Content Include="PatronComposite\Conceptualidad\PatronCompositeVariaciones.png" />
+    <Content Include="PatronDecorador\Conceptualidad\DiseñoDelPatron.png" />
+    <Content Include="PatronDecorador\Conceptualidad\DiseñoDelPatronBasico.png" />
+    <Content Include="PatronDecorador\Conceptualidad\PartesPrincipales.png" />
+    <Content Include="PatronDecorador\Programa.txt" />
+    <Content Include="PatronComposite\Programa.txt" />
+    <Content Include="PatronEstrategia\Conceptualidad\DiseñoDelPatron.jpg" />
+    <Content Include="PatronEstrategia\Programa.txt" />
+    <Content Include="PatronProxy\Conceptualidad\PatronProxyConcepto.png" />
+    <Content Include="PatronProxy\Conceptualidad\PatronProxyDiagrama.png" />
+    <Content Include="PatronProxy\Conceptualidad\PatronProxyPartes.png" />
+    <Content Include="PatronProxy\Conceptualidad\PatronProxyTiposDeProxy.png" />
+    <Content Include="PatronProxy\Programa.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

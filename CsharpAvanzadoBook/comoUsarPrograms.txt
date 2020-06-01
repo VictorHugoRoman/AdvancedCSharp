@@ -1,0 +1,2 @@
+﻿Copiar los ejemplos dentro de la carpeta Programas lo que esta dentro
+de la calse ProgramX

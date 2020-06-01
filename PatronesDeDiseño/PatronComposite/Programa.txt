@@ -1,0 +1,11 @@
+﻿Patron Composite(Compuesto), 
+Ejecuta un arbol de elementos implementando el patron, con las funciones:
+	1-AdicionarCompuesto  2-AdicionarComponente  3-Borrar  4-Buscar  5-Mostrar  6-Salir
+Adicionar Compuesto y Adicionar Componente, los creamos solo con algun nombre o string q podamos diferenciar para la jerarquia,
+ejemplo: CuentaMayor, SubCuentaMayor.
+
+Buscar y Borrar lo tenemos q hacer por exactamente el mismo nombre del elemento.
+
+Observaciones:
+Si añadimos un compuesto, nos posiciona en este elemento y podemos añadir mas elementos.
+Si añadimos un componente, ya no podemos añadirle mas elementos a este elemento

@@ -1,0 +1,2 @@
+﻿El programa muestra un listado de productos y nos calcula los totales
+implementando el patron Bridge o patron puente

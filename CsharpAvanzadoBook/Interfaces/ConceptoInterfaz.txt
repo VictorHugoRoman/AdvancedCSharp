@@ -1,0 +1,10 @@
+﻿Son un medio para poder definir comportamientos. Los comportamientos q tenemos no son otra cosa q metedos, pero
+cuando definimos la interfaz solamentes usamos metodos abstractos.
+No precisan una clase base, y algo curioso q dbmos recordar y q las diferencia de otros tipos dentro del 
+framework net, s q no requieren Object como clase base, por ello, no es necesario definirla.
+Diferencia con clases abstractas:
+	en una clase abstracta podemos definir metodos abstractos por las clases hijas. sin embargo, en la clase abstracta tambien
+	es posible definir datos e incluso metodos concretos  los cuales serán heredados por las clases hijas. por el contrario las
+	interfaces solo definen el comportamiento y no contamina con datos o metdos inecesarios a aquellas clases q la implementan.
+En .Net no es posible llevar a cabo herencia multiple, pero las interfaces nos permiten de cierta forma acercarnos a esta funcionalidad,
+ya q es posible teener clases q implementen varias interfaces.
