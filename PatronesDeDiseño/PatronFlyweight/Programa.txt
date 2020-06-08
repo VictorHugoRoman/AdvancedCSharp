@@ -1,0 +1,3 @@
+﻿El programa crea unos productos de comida y los guarda en la lista de receta a la q pertenece, se almacena el Indice del producto.
+las listas de receta guarda el indice del producto lo q significa que no tenemos que crear un objeto de un mismo producto para
+guardarlo en otra receta.

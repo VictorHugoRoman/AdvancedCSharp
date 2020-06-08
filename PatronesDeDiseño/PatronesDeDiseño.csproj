@@ -59,6 +59,13 @@
     <Compile Include="PatronComposite\Clases\CMainPatronComposite.cs" />
     <Compile Include="PatronComposite\Clases\CComponente.cs" />
     <Compile Include="PatronComposite\Interfaces\IComponente.cs" />
+    <Compile Include="PatronFachada\Clases\CFachada.cs" />
+    <Compile Include="PatronFachada\Clases\CSistemaCompra.cs" />
+    <Compile Include="PatronFachada\Clases\CMainPatronFachada.cs" />
+    <Compile Include="PatronFlyweight\Clases\CFlyweightFactory.cs" />
+    <Compile Include="PatronFlyweight\Clases\CReceta.cs" />
+    <Compile Include="PatronFlyweight\Clases\CMainPatronFlyweight.cs" />
+    <Compile Include="PatronFlyweight\Interfaces\IFlyweight.cs" />
     <Compile Include="PatronEstrategia\Clases\CDiv.cs" />
     <Compile Include="PatronEstrategia\Clases\CMainPatronEstrategia.cs" />
     <Compile Include="PatronEstrategia\Clases\CMultiplicacion.cs" />
@@ -74,6 +81,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="PatronFachada\Interfaces\" />
     <Folder Include="PatronProxy\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +102,16 @@
     <Content Include="PatronDecorador\Conceptualidad\PartesPrincipales.png" />
     <Content Include="PatronDecorador\Programa.txt" />
     <Content Include="PatronComposite\Programa.txt" />
+    <Content Include="PatronFachada\Conceptualidad\PatronFachadaConceptos.png" />
+    <Content Include="PatronFachada\Conceptualidad\PatronFachadaPartesImportantes.png" />
+    <Content Include="PatronFachada\Conceptualidad\PatronFachadaUML.png" />
+    <Content Include="PatronFachada\Conceptualidad\PatronFachadaVariaciones.png" />
+    <Content Include="PatronFachada\Programa.txt" />
+    <Content Include="PatronFlyweight\Conceptualidad\PatronFlyweightCaracteristicas.png" />
+    <Content Include="PatronFlyweight\Conceptualidad\PatronFlyweightSusPartes.png" />
+    <Content Include="PatronFlyweight\Conceptualidad\PatronFlyweightUML.png" />
+    <Content Include="PatronFlyweight\Conceptualidad\PatronFlyweightUsos.png" />
+    <Content Include="PatronFlyweight\Programa.txt" />
     <Content Include="PatronEstrategia\Conceptualidad\DiseñoDelPatron.jpg" />
     <Content Include="PatronEstrategia\Programa.txt" />
     <Content Include="PatronProxy\Conceptualidad\PatronProxyConcepto.png" />
