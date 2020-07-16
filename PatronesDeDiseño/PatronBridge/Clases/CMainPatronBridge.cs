@@ -33,15 +33,15 @@ namespace PatronesDeDiseño.PatronBridge.Clases
             //CAbstraccion bridge = new CAbstraccion(1, productos); //De esta forma simplmente le mandamos al constructor cual es la version con cual trabajar por medio del primer parametro
             #endregion
             #region Ejecuta Implementacion 2
-            //Creamos el Bridge, metodo 2
+            //Creamos el Bridge, metodo 1
             //CAbstraccion bridge = new CAbstraccion(new CImplementacion2(), productos);//trabajamos con version 2 representada con la clase  CImplementacion2
             //Creamos el Bridge, metodos 2
             //CAbstraccion bridge = new CAbstraccion(2, productos); //De esta forma simplmente le mandamos al constructor cual es la version con cual trabajar por medio del primer parametro
             #endregion
             #region Ejecuta Implementacion 3
-            //Creamos el Bridge, metodo 3
+            //Creamos el Bridge, metodo 1
             //CAbstraccion bridge = new CAbstraccion(new CImplementacion3(), productos);//trabajamos con version 3 representada con la clase  CImplementacion3
-            //Creamos el Bridge, metodos 3
+            //Creamos el Bridge, metodos 2
             //CAbstraccion bridge = new CAbstraccion(3, productos); //De esta forma simplmente le mandamos al constructor cual es la version con cual trabajar por medio del primer parametro
             #endregion
             

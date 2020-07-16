@@ -7,7 +7,7 @@ using CsharpAvanzadoBook.Interfaces;
 
 namespace CsharpAvanzadoBook.Clases
 {
-    public class CAuto : IAutomovil, ICloneable
+    public class CAuto : IAutomovil, ICloneable, IDisposable
     {
         private double costo;
         private double tenencia;
@@ -41,6 +41,18 @@ namespace CsharpAvanzadoBook.Clases
             CAuto temp = new CAuto(modelo, costo);//creamos un objeto con los valores actuales modelo y costo
             temp.Tenencia = tenencia;//al objeto creado le asignamos la tenencia actual, lo hacemos asi porque no construi un ctor q asigne el valor
             return temp;
+        }
+        #endregion
+        #region Implementando IDisposable(Desechable)
+        /*
+         Si deseamos q los recursos no administrados sean liberados tan pronto como sea posible en lugar d q
+         lo haga el recolector de basura (Garbage Colector (GB)), podemos implementar la interfaz IDisposable
+         en este caso se toma q cuando el usuario deja de usar al objeto, el usuario invoca Dispose(), se libera
+         lo no administrado, pero el objeto sigue existiendo.
+             */
+        public void Dispose()
+        {
+            
         }
         #endregion
     }

@@ -16,9 +16,14 @@ namespace PatronesDeDiseño
             //PatronesDeDiseño.PatronBridge.Clases.CMainPatronBridge._Main();
             //PatronesDeDiseño.PatronComposite.Clases.CMainPatronComposite._Main();
             //PatronesDeDiseño.PatronFlyweight.Clases.CMainPatronFlyweight._Main();
+            //PatronesDeDiseño.PatronFachada.Clases.CMainPatronFachada._Main();
+            //PatronesDeDiseño.PatronAdaptador.Clases.CMainPatronAdaptador._Main();
+            //PatronesDeDiseño.PatronPrototipo.Clases.CMainPatronPrototipo._Main();
+            //PatronesDeDiseño.PatronMetodoFabirca.Clases.CMainPatronMetodoFabirca._Main();
+            //PatronesDeDiseño.PatronSingleton.Clases.CMainPatronSingleton._Main();
+            //PatronesDeDiseño.PatronFabricaAbstracta.Clases.CMainPatronFabricaAbstracta._Main();
             #endregion
-
-            PatronesDeDiseño.PatronFachada.Clases.CMainPatronFachada._Main();
+            PatronBuilder.Clases.CMainPatronBuilder._Main();
         }
     }
 }
