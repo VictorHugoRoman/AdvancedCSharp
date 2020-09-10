@@ -1,0 +1,2 @@
+﻿el Vendedor puede llamar al jefe de piso si no puede llevar a cabo la accion y el jefe de piso 
+sino puede hacerlo puede llamar al propietario

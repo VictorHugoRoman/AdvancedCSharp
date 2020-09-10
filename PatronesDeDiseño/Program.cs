@@ -22,8 +22,18 @@ namespace PatronesDeDiseño
             //PatronesDeDiseño.PatronMetodoFabirca.Clases.CMainPatronMetodoFabirca._Main();
             //PatronesDeDiseño.PatronSingleton.Clases.CMainPatronSingleton._Main();
             //PatronesDeDiseño.PatronFabricaAbstracta.Clases.CMainPatronFabricaAbstracta._Main();
+            //PatronBuilder.Clases.CMainPatronBuilder._Main();
+            //PatronDeComportamiento.Clases.CMainPatronDeComportamiento._Main();
+            //PatronTemplate.Clases.CMainPatronTemplate._Main();
+            //PatronCadenaResponsabilidad.Clases.CMainPatronCadenaResponsabilidad._Main();
+            //PatronComando.Clases.CMainPatronComando._Main();
+            //PatronIterador.Clases.CMainPatronIterador._Main();
+            //PatronMediador.Clases.CMainPatronMediador._Main();
+            //PatronObservador.Clases.CMainPatronObservador._Main();
+            //PatronVisitante.Clases.CMainPatronVisitante._Main();
+            //PatronInterprete.Clases.CMainPatronInterprete._Main();
             #endregion
-            PatronBuilder.Clases.CMainPatronBuilder._Main();
+            PatronMemento.Clases.CMainPatronMemento._Main();
         }
     }
 }
